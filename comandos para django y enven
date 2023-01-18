@@ -1,0 +1,21 @@
+# Windows
+py -3 -m venv .venv
+.venv\scripts\activate
+
+Actualice pip en el entorno virtual ejecutando el siguiente comando en el terminal de código VS:
+
+python -m pip install --upgrade pip
+
+Instale Django en el entorno virtual ejecutando el siguiente comando en el terminal de código VS:
+
+python -m pip install django
+
+django-admin startproject 'web_project' nombre de la carpeta
+
+
+python manage.py migrate runserver 'para levantar el servidor'
+python manage.py runserver 'para levantar el servidor'
+
+
+
+python manage.py startapp webapp ' nueva app'
